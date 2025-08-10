@@ -27,6 +27,17 @@
         console.log("Nilai UTS :", nilaiUTS);
         console.log("Nilai UAS :", nilaiUAS);
         console.log("Nilai Akhir :", nilaiAkhir);
+
+        let statusKelulusan;
+        
+        if (nilaiAkhir >= 75) {
+            statusKelulusan = "Lulus";
+        } else  {
+            statusKelulusan = "Remedial";
+        }
+
+        console.log("\n === Status Kelulusan ===");
+        console.log("Status Kelulusan :", statusKelulusan);
     </script>
 </body>
 </html>
